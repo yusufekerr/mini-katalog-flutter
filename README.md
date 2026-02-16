@@ -98,4 +98,4 @@ The application reads product data from a JSON file and displays them using Grid
 
 ## 📁 Project Structure
 
-<pre> ```bash lib/ ├── main.dart ├── models/ │ └── urun.dart ├── services/ │ └── json_service.dart ├── screens/ │ ├── ana_sayfa.dart │ └── urun_detay_sayfasi.dart └── widgets/ └── product_card.dart ``` </pre>
+ ```bash lib/ ├── main.dart ├── models/ │ └── urun.dart ├── services/ │ └── json_service.dart ├── screens/ │ ├── ana_sayfa.dart │ └── urun_detay_sayfasi.dart └── widgets/ └── product_card.dart ``` 
