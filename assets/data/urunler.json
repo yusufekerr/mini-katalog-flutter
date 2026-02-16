@@ -1,0 +1,17 @@
+[
+  {
+    "ad": "Kulaklık",
+    "fiyat": "₺999",
+    "resimUrl": "https://picsum.photos/200?1"
+  },
+  {
+    "ad": "Klavye",
+    "fiyat": "₺1499",
+    "resimUrl": "https://picsum.photos/200?2"
+  },
+  {
+    "ad": "Mouse",
+    "fiyat": "₺799",
+    "resimUrl": "https://picsum.photos/200?3"
+  }
+]
