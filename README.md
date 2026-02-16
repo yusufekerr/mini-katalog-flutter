@@ -1,17 +1,111 @@
-# mini_katalog
+# 📱 Mini Katalog Uygulaması
 
-A new Flutter project.
+## 📌 Proje Hakkında
 
-## Getting Started
+Mini Katalog, Flutter kullanılarak geliştirilmiş basit bir ürün listeleme uygulamasıdır.  
+Bu proje, 4 haftalık Mobil Uygulama Geliştirme staj/eğitim programı sonunda oluşturulmuştur.
 
-This project is a starting point for a Flutter application.
+Uygulama, JSON formatında tanımlanan ürün verilerini okuyarak GridView ile listelemekte ve kullanıcıya temel katalog deneyimi sunmaktadır.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🎯 Proje Amaçları
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter temel yapılarını öğrenmek
+- Widget mantığını kavramak
+- Sayfa geçişlerini (Navigator) uygulamak
+- JSON veri okuma ve modelleme
+- Basit state yönetimi (setState)
+- Proje klasörleme yapısını uygulamak
+
+---
+
+## 🚀 Özellikler
+
+- 📦 JSON dosyasından ürün verisi okuma
+- 🖼 GridView ile ürün listeleme
+- ❤️ Favori butonu (toggle)
+- 🔍 Ürün detay sayfasına geçiş
+- ⏳ Veri yüklenirken loading göstergesi
+- 📂 Katmanlı klasör yapısı (models, services, screens, widgets)
+
+---
+
+## 🛠 Kullanılan Teknolojiler
+
+- Flutter
+- Dart
+- Material Design
+- JSON (Asset veri okuma)
+
+---
+
+## 📁 Proje Yapısı
+
+lib/
+├── main.dart
+├── models/
+│ └── urun.dart
+├── services/
+│ └── json_service.dart
+├── screens/
+│ ├── ana_sayfa.dart
+│ └── urun_detay_sayfasi.dart
+└── widgets/
+└── product_card.dart
+
+# 📱 Mini Catalog Application
+
+## 📌 About the Project
+
+Mini Catalog is a simple product listing application developed using Flutter.  
+This project was created at the end of a 4-week Mobile Application Development internship/training program.
+
+The application reads product data from a JSON file and displays them using GridView, providing a basic catalog experience.
+
+---
+
+## 🎯 Project Objectives
+
+- Understanding Flutter fundamentals
+- Learning widget structure
+- Implementing page navigation (Navigator)
+- JSON data reading and modeling
+- Basic state management (setState)
+- Applying structured project folder architecture
+
+---
+
+## 🚀 Features
+
+- 📦 Product data loaded from a JSON file
+- 🖼 Product listing with GridView
+- ❤️ Favorite toggle button
+- 🔍 Navigation to product detail page
+- ⏳ Loading indicator while fetching data
+- 📂 Layered folder structure (models, services, screens, widgets)
+
+---
+
+## 🛠 Technologies Used
+
+- Flutter
+- Dart
+- Material Design
+- JSON (Asset-based data loading)
+
+---
+
+## 📁 Project Structure
+
+lib/
+├── main.dart
+├── models/
+│ └── urun.dart
+├── services/
+│ └── json_service.dart
+├── screens/
+│ ├── ana_sayfa.dart
+│ └── urun_detay_sayfasi.dart
+└── widgets/
+└── product_card.dart
