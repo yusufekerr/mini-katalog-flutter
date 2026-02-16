@@ -42,17 +42,7 @@ Uygulama, JSON formatında tanımlanan ürün verilerini okuyarak GridView ile l
 
 ## 📁 Proje Yapısı
 
-lib/
-├── main.dart
-├── models/
-│ └── urun.dart
-├── services/
-│ └── json_service.dart
-├── screens/
-│ ├── ana_sayfa.dart
-│ └── urun_detay_sayfasi.dart
-└── widgets/
-└── product_card.dart
+ ``` lib/ ├── main.dart ├── models/ │ └── urun.dart ├── services/ │ └── json_service.dart ├── screens/ │ ├── ana_sayfa.dart │ └── urun_detay_sayfasi.dart └── widgets/ └── product_card.dart ```
 
 # 📱 Mini Catalog Application
 
@@ -98,4 +88,4 @@ The application reads product data from a JSON file and displays them using Grid
 
 ## 📁 Project Structure
 
- ```bash lib/ ├── main.dart ├── models/ │ └── urun.dart ├── services/ │ └── json_service.dart ├── screens/ │ ├── ana_sayfa.dart │ └── urun_detay_sayfasi.dart └── widgets/ └── product_card.dart ``` 
+ ``` lib/ ├── main.dart ├── models/ │ └── urun.dart ├── services/ │ └── json_service.dart ├── screens/ │ ├── ana_sayfa.dart │ └── urun_detay_sayfasi.dart └── widgets/ └── product_card.dart ``` 
